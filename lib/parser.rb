@@ -20,4 +20,8 @@ class DataCruncher
       puts "#{k} has #{v} visits"
     end
   end
+
+  def most_unique_page_views
+    # write some code
+  end
 end

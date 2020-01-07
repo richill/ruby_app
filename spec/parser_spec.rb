@@ -8,5 +8,7 @@ describe DataCruncher do
   end
 
   it 'can return an array of webpages with most unique page views also ordered' do
+    expected_result = [["index", 23], ["home", 23], ["help_page/1", 23], ["contact", 23], ["about/2", 22], ["about", 21]]
+    expect(DataCruncher.new.most_unique_page_views).to eq expected_result
   end
 end
