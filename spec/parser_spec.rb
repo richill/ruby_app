@@ -1,7 +1,7 @@
 require './spec/spec_helper'
 require "./lib/parser.rb"
 
-describe Parser do
+describe DataCruncher do
   it 'can return an array of webpages with most page views ordered from most pages views to less page views' do
   end
 
