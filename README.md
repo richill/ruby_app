@@ -14,12 +14,12 @@ irb -r ./lib/parser.rb
 
 > For the list of visits:
 ```
-data = DataCruncher.new
+data = Parser.new
 data.number_of_visits
 ```
 > For the lsit of unique visits:
 ```
-data = DataCruncher.new
+data = Parser.new
 data.most_unique_page_views
 ```
 

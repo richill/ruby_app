@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'pry'
 
-class DataCruncher
+class Parser
   def number_of_visits
     data = File.read('webserver.log')
     split_data = data.split("\n/") # split_data = array
